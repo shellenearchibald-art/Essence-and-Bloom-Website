@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> 
+        <title>Products</title
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"
+            meta name="description" content=" Essence & Bloom Webpage">
+            <meta name="author" content="Shellene Archibald">
+            <link rel='stylesheet' href='css/products_style.css'>
+          </head>
+           
+      
+   <h1 style="text-align: center;"> Essence & Bloom Flower Shop </h1>
+          
+        <h2><img class="left-img" src='images/flower_shop_logo.jpg' width= "160" alt='Website logo: Essence & Bloom Flower Shop with beautiful orange flowers'/> </h2>
+
+        <header class = "header">
+      <h1 style="text-align: left;">Navigational Links</h1>
+      <nav class = "nav">
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="subscriptionform.html">Subscription form</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+       <h3 style= "text-align: center;"> Featured Products</h3>
+    </header>
+
+     
+        <body>
+       
+        <div class="card">
+  <img src="images/birthday.jpeg" alt="pink and white rose bouquet" width="400" class="card-img">
+  <div class="card-body">
+    <h2 class="card-title">Birthday's</h2>
+    <p>Make someone's day special!</p>
+  </div>
+  <footer class="card-footer">
+    <button>Browse</button>
+  </footer>
+</div>
+
+
+<div class="card">
+  <img src="images/romance.jpeg" alt="red rose bouquet" width="400" class="card-img">
+  <div class="card-body">
+    <h2 class="card-title">Romance</h2>
+    <p>Celebrate love today.</p>
+  </div>
+  <footer class="card-footer">
+    <button>Browse</button>
+  </footer>
+</div>
+
+
+<div class="card">
+  <img src="images/funeral.jpeg" alt="white tulip bouquet" width="400" class="card-img">
+  <div class="card-body">
+    <h2 class="card-title">Sympathy/Funeral Arrangements</h2>
+    <p>Bring comfort to loved ones in a time of need.</p>
+  </div>
+  <footer class="card-footer">
+    <button>Browse</button>
+  </footer>
+</div>
+
+
+<div class="card">
+  <img src="images/congratulations.jpeg" alt="red rose bouquet with graduation cap, scroll and ribbon: class of 2025" width="400" class="card-img">
+  <div class="card-body">
+    <h2 class="card-title">Graduation</h2>
+    <p>Send congratulations with a thoughtful bouquet.</p>
+  </div>
+  <footer class="card-footer">
+    <button>Browse</button>
+  </footer>
+</div>
+
+<div class="card">
+  <img src="images/just_because.jpeg" alt="yellow sunflower in a water vase" width="400"   class="card-img">
+  <div class="card-body">
+    <h2 class="card-title">Flowers Just Because</h2>
+    <p>For any reason.</p>
+  </div>
+  <footer class="card-footer">
+    <button>Browse</button>
+  </footer>
+</div>
+ 
+
+<div class="container">
+    <h2>Place Your Order</h2>
+
+    <form id="orderForm">
+
+        <input type="text" id="name" placeholder="Full Name">
+        <div id="nameError" class="error"></div>
+
+        <input type="email" id="email" placeholder="Email Address">
+        <div id="emailError" class="error"></div>
+
+        <select id="product">
+            <option value="">Select Product</option>
+            <option>Wedding Bouquet</option>
+            <option>Birthday Arrangement</option>
+            <option>Funeral Arrangement</option>
+            <option>Romantic Bouquet</option>
+            <option>Graduation Arrangement</option>
+            <option>Gift Floral Arrangements</option>
+            <option>Roses</option>
+            <option>Tulips</option>
+            <option>Carnations</option>
+            <option>Orchids</option>
+            <option>Lilac</option>
+            <option>Sunflowers</option>
+            <option>Hydrangea</option>
+            <option>Daisy</option>
+            <option>Chrysanthemum</option>
+        </select>
+        <div id="productError" class="error"></div>
+
+        <input type="number" id="quantity" placeholder="Quantity">
+        <div id="quantityError" class="error"></div>
+
+        <button type="submit">Submit Order</button>
+
+        
+
+    </form>
+</div>
+<script src ="js/script.js"></script>
+
+
+
+</body>
+</html>
+

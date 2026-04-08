@@ -1,0 +1,42 @@
+body {
+    color: #414141;
+    background-color: #8faf9f;
+ font-size: 18px;
+ }
+
+ h1 {
+    text-align: center;
+   /*  font-size: 36px; using pixels */
+  font-size: 2 em;
+}
+
+.card {
+  background-color: #8FAF9F;
+  border: black;
+  box-shadow: 0 4px 8px 0 #414141; /* Creates the card effect */
+  transition: 0.3s;
+  border-radius: 8px;
+  width: 400px;
+  height: auto;
+  overflow:hidden; /* Ensures image corners match card corners */
+  text-align: center;
+  align-items: center;
+  justify-content: center; 
+  margin: 0 auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #414141; /* Highlight on hover */
+}
+
+.card-body {
+  padding: 16px;
+}
+
+
+.card-container {
+  display: grid;
+  /* Automatically fits as many 250px columns as possible */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
